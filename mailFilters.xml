@@ -12,7 +12,7 @@
 		<id>tag:mail.google.com,2008:filter:1515696875268</id>
 		<updated>2018-01-16T01:40:23Z</updated>
 		<content></content>
-		<apps:property name='from' value='(*@*.edu) OR (*@*collegeboard.org) OR (*College@*.org) OR (*@members.privatecolleges.com)'/>
+		<apps:property name='from' value='(*@*.edu) NOT (*@*.gsu.edu) OR (*@*collegeboard.org) OR (*College@*.org) OR (*@members.privatecolleges.com)'/>
 		<apps:property name='label' value='Colleges'/>
 		<apps:property name='shouldArchive' value='true'/>
 		<apps:property name='shouldNeverSpam' value='true'/>
